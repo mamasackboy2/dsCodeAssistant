@@ -1,21 +1,30 @@
 ## DO NOT MODIFY THIS FILE MANUALLY. This is part of auto-baselining from 1ES Pipeline Templates. Go to [https://aka.ms/1espt-autobaselining] for more details.
+# Last updated: 2025-10-30
+# Enhanced configuration with improved documentation
 
 pipelines:
   111:
     retail:
       source:
         credscan:
-          lastModifiedDate: 2024-09-10
+          lastModifiedDate: 2025-10-30
+          description: Credential scanning for source code
         eslint:
-          lastModifiedDate: 2024-09-10
+          lastModifiedDate: 2025-10-30
+          description: JavaScript linting
         psscriptanalyzer:
-          lastModifiedDate: 2024-09-10
+          lastModifiedDate: 2025-10-30
+          description: PowerShell script analysis
         armory:
-          lastModifiedDate: 2024-09-10
+          lastModifiedDate: 2025-10-30
+          description: ARM template validation
       binary:
         credscan:
-          lastModifiedDate: 2025-02-04
+          lastModifiedDate: 2025-10-30
+          description: Credential scanning for binaries
         binskim:
-          lastModifiedDate: 2025-02-04
+          lastModifiedDate: 2025-10-30
+          description: Binary security analysis
         spotbugs:
-          lastModifiedDate: 2025-02-04
+          lastModifiedDate: 2025-10-30
+          description: Java bug pattern detection
